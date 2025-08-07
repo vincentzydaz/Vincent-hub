@@ -1,5 +1,5 @@
 getgenv().Games = {
-    [104965156633249] = "https://raw.githubusercontent.com/vincentzydaz/Vincent-hub/refs/heads/main/poop.lua",
+    [104965156633249] = "https://raw.githubusercontent.com/vincentzydaz/Vincent-hub/main/poop.lua",
     [75948699874267] = "https://cdn.authguard.org/virtual-file/f2f52adea0ba4cd7a47a54a1959a21e2",
     [7920018625] = "https://cdn.authguard.org/virtual-file/2277b0a13b1d4ddf8d53055a304bccab",
     [107204273213508] = "https://cdn.authguard.org/virtual-file/aee96d5e4671470bac7d91a7702d1044",
@@ -9,5 +9,15 @@ getgenv().Games = {
 local id = game.PlaceId
 local url = getgenv().Games[id]
 if url then
-    loadstring(game:HttpGet(url))()
+    local success, result = pcall(function()
+        return game:HttpGet(url)
+    end)
+
+    if success then
+        loadstring(result)()
+    else
+        warn("Failed to fetch script from URL:", result)
+    end
+else
+    warn("No script found for PlaceId:", id)
 end
