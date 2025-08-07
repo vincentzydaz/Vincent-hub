@@ -1,7 +1,6 @@
 getgenv().Games = {
-    [104965156633249] = "https://raw.githubusercontent.com/vincentzydaz/Vincent-hub/refs/heads/main/poop.lua",
+    [107204273213508] = "https://cdn.authguard.org/virtual-file/aee96d5e4671470bac7d91a7702d1044",
     [7920018625] = "https://cdn.authguard.org/virtual-file/2277b0a13b1d4ddf8d53055a304bccab",
-    [73956553001240] = "https://cdn.authguard.org/virtual-file/de6c997118df4b17a0bd645306482670",
     [75948699874267] = "https://cdn.authguard.org/virtual-file/f2f52adea0ba4cd7a47a54a1959a21e2",
 }
 
