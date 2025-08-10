@@ -12,6 +12,9 @@ getgenv().Games = {
     ["https://cdn.authguard.org/virtual-file/9c517530afc34fa89c8c5c2767099fb2"] = {126849358937279},
 
     ["https://cdn.authguard.org/virtual-file/1cf7b115deaa443bbb7d9569ed186cae"] = {116605585218149},
+
+    ["https://cdn.authguard.org/virtual-file/4c93b6095bde41d2b0030f9c3f181d79"] = {118611268319028},
+
     ["https://cdn.authguard.org/virtual-file/173a47701d0046219475112c8304d853"] = {137925884276740},
 }
 
