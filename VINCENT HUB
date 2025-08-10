@@ -10,6 +10,8 @@ getgenv().Games = {
     ["https://cdn.authguard.org/virtual-file/d36c954e546b4e3ead617369c4754a04"] = {123741668193208},
 
     ["https://cdn.authguard.org/virtual-file/9c517530afc34fa89c8c5c2767099fb2"] = {126849358937279},
+
+    ["https://cdn.authguard.org/virtual-file/1cf7b115deaa443bbb7d9569ed186cae"] = {116605585218149},
 }
 
 local id = game.PlaceId
